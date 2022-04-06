@@ -37,7 +37,7 @@ const LongButton = ({
   return (
     <View style={!isNotBottom && [styles.containerStyle, containerStyle]}>
       <TouchableOpacity
-        activeOpacity={0.5}
+        activeOpacity={0.6}
         onPress={onPress}
         disabled={disabled || loading}
         style={[styles.buttonStyle, buttonStyle]}>

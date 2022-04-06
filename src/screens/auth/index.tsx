@@ -1,3 +1,4 @@
+import { Logo } from 'assets/svgs';
 import React from 'react';
 import { View, Text, SafeAreaView } from 'react-native';
 import { styles } from './style';
@@ -5,7 +6,7 @@ import { styles } from './style';
 const Onboarding = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={{ color: '#fff' }}>Hello World</Text>
+      <Logo />
     </SafeAreaView>
   );
 };

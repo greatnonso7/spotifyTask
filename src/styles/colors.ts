@@ -3,4 +3,5 @@ export const colors = {
   white: '#FFFFFF',
   green: '#1ED760',
   disabled: '#ccc',
+  textInput: '#777777',
 };

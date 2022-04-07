@@ -55,7 +55,7 @@ const HeaderBar = ({
           <IconEntypo
             name="chevron-thin-left"
             color={colors.white}
-            size={hp(25)}
+            size={hp(24)}
           />
         </TouchableOpacity>
       );
@@ -117,11 +117,11 @@ const HeaderBar = ({
 const styles = StyleSheet.create({
   headerLeftIconContainer: {
     position: 'absolute',
-    left: wp(26),
+    left: wp(20),
   },
   headerTitleContainer: {
     position: 'absolute',
-    left: deviceWidth * 0.35,
+    left: deviceWidth * 0.4,
     borderColor: colors.white,
     alignSelf: 'center',
   },
@@ -132,11 +132,11 @@ const styles = StyleSheet.create({
   },
   rightIconContainer: {
     position: 'absolute',
-    right: wp(26),
+    right: wp(20),
   },
   headerRightContainer: {
     position: 'absolute',
-    right: wp(26),
+    right: wp(20),
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -155,6 +155,7 @@ const styles = StyleSheet.create({
     height: hp(44),
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
     paddingHorizontal: hp(20),
   },
 });

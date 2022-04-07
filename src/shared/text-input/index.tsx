@@ -51,7 +51,9 @@ const FormTextInput = forwardRef<RNTextInput, FormTextInputProps>(
         />
 
         {isPassword && (
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={showPassword}
+            style={styles.showPasswordContainer}>
             <Icon
               name={show ? 'eye-off' : 'eye'}
               color={colors.white}
@@ -82,6 +84,11 @@ const styles = StyleSheet.create({
     fontSize: hp(20),
     backgroundColor: colors.textInput,
     marginBottom: hp(25),
+  },
+  showPasswordContainer: {
+    position: 'absolute',
+    right: wp(20),
+    bottom: hp(40),
   },
 });
 

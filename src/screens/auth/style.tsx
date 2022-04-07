@@ -28,5 +28,6 @@ export const styles = StyleSheet.create({
   },
   loginButtonStyle: {
     backgroundColor: 'transparent',
+    marginTop: hp(10),
   },
 });
